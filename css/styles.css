@@ -1,6 +1,7 @@
-logo {
-  color: #2196f3;
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-logos {
-  color: black;
+.logotyp {
+  color: #2196f3;
 }
