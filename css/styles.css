@@ -1,5 +1,4 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 a {
@@ -15,6 +14,7 @@ a {
   font-family: "Raleway";
   font-style: normal;
 }
+
 .bold {
   font-weight: 700;
   font-size: 26px;
@@ -25,54 +25,55 @@ a {
   top: 1688px;
 }
 .bottom {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+.bottoms {
   background: #2f303a;
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 1628px;
 }
-.logoblackw {
+.wite {
   color: #ffffff;
   font-family: "Raleway";
   font-style: normal;
 }
-.logobottom {
-  padding: 60px 1240px 161px 215px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-}
 .info {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 1769px;
+}
+.infoo {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  width: 231px;
+  height: 21px;
 }
 .infom {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 1769px;
   text-decoration-line: underline;
 }
 .space {
-  font-weight: 700;
-
-  line-height: 24px;
-  margin: 60px 215px 60px;
-  position: absolute;
+  margin-left: 215px;
   list-style-position: inside;
-  padding-left: 0;
 }
 .streat {
+  font-style: normal;
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
