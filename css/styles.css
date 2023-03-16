@@ -63,7 +63,9 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
 }
-
+a .buthover:hover {
+  background: #2196f3;
+}
 .logo {
   color: #2196f3;
   font-family: "Raleway";
@@ -143,7 +145,8 @@ h1 {
   left: 215px;
   top: 1739px;
 }
-.buttons-style {
+.buttons-style:hover {
+  background-color: #2196f3;
   cursor: pointer;
   border: none;
 }
