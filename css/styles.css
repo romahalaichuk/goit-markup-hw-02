@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--text-colr);
 }
 :root {
   --active-color: #2196f3;
@@ -10,9 +11,7 @@ body {
   --bacground-color-footer: #2f303a;
   --text-contact-footer: rgba(255, 255, 255, 0.6);
 }
-a {
-  text-decoration: none;
-}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -30,6 +29,7 @@ a {
   padding: 32px 0 31px 0;
 }
 .header-contact-link {
+  text-decoration: none;
   color: var(--contack);
   font-weight: 500;
   font-size: 14px;
@@ -140,7 +140,7 @@ a {
   flex-direction: column;
 }
 
-.web_one {
+.web-one {
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -205,7 +205,6 @@ a {
   margin-right: 8px;
 }
 .filter-button {
-  font-family: "Roboto";
   font-style: normal;
   color: var(--text-colr);
   background-color: #f5f4fa;
@@ -225,14 +224,12 @@ a:hover {
   color: var(--active-color);
 }
 /*        focus- hower */
-h1 {
+.slogan {
   position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
   top: 280px;
-
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -245,12 +242,12 @@ h1 {
   color: #ffffff;
 }
 .hero-button {
+  font-size: 16px;
   position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  font-family: Roboto, sans-serif;
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
@@ -280,8 +277,10 @@ h1 {
   color: #ffffff;
   font-family: "Raleway";
   font-style: normal;
+  line-height: 1.19;
 }
 .info {
+  text-decoration: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -291,11 +290,11 @@ h1 {
 }
 
 .infom {
+  text-decoration: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
-  text-decoration-line: underline;
 }
 
 .streat {
@@ -308,10 +307,14 @@ h1 {
 }
 
 .headline {
+  font-size: 18px;
+  line-height: 1.18;
   font-weight: bold;
   color: #212121;
 }
 .headline-wite {
+  font-size: 16px;
+  line-height: 1.18;
   color: #757575;
 }
 ul {
@@ -333,11 +336,12 @@ ul {
   color: inherit;
 }
 .logo {
+  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700px;
   color: var(--active-color);
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.02;
 }
 .logo-footer {
